@@ -1,0 +1,133 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MyFirstRobot<template_project_gradle>",
+            "request": "launch",
+            "mainClass": "example.MyFirstRobot",
+            "projectName": "template_project_gradle"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KeyGet<template_project_gradle>",
+            "request": "launch",
+            "mainClass": "example.key.KeyGet",
+            "projectName": "template_project_gradle"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LedDisp<template_project_gradle>",
+            "request": "launch",
+            "mainClass": "example.led.LedDisp",
+            "projectName": "template_project_gradle"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FractalCircle<template_project_gradle>",
+            "request": "launch",
+            "mainClass": "example.programming.FractalCircle",
+            "projectName": "template_project_gradle"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FractalTree<template_project_gradle>",
+            "request": "launch",
+            "mainClass": "example.programming.FractalTree",
+            "projectName": "template_project_gradle"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HelloWorld<template_project_gradle>",
+            "request": "launch",
+            "mainClass": "example.programming.HelloWorld",
+            "projectName": "template_project_gradle"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LCDShowJavaLogoExample<template_project_gradle>",
+            "request": "launch",
+            "mainClass": "example.robotics.ev3.actuator.LCDShowJavaLogoExample",
+            "projectName": "template_project_gradle"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LEDPatternsExample<template_project_gradle>",
+            "request": "launch",
+            "mainClass": "example.robotics.ev3.actuator.LEDPatternsExample",
+            "projectName": "template_project_gradle"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BasicMotorOperationExample<template_project_gradle>",
+            "request": "launch",
+            "mainClass": "example.robotics.ev3.actuator.motor.BasicMotorOperationExample",
+            "projectName": "template_project_gradle"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BatteryDemo<template_project_gradle>",
+            "request": "launch",
+            "mainClass": "example.robotics.ev3.sensor.BatteryDemo",
+            "projectName": "template_project_gradle"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DetectBlueBall<template_project_gradle>",
+            "request": "launch",
+            "mainClass": "example.robotics.ev3.sensor.DetectBlueBall",
+            "projectName": "template_project_gradle"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IRSensorRemoteControlExample<template_project_gradle>",
+            "request": "launch",
+            "mainClass": "example.robotics.ev3.sensor.IRSensorRemoteControlExample",
+            "projectName": "template_project_gradle"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TouchSensorExample<template_project_gradle>",
+            "request": "launch",
+            "mainClass": "example.robotics.ev3.sensor.TouchSensorExample",
+            "projectName": "template_project_gradle"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TurnWithGyroSensorExample<template_project_gradle>",
+            "request": "launch",
+            "mainClass": "example.robotics.ev3.sensor.TurnWithGyroSensorExample",
+            "projectName": "template_project_gradle"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-USSensorExample<template_project_gradle>",
+            "request": "launch",
+            "mainClass": "example.robotics.ev3.sensor.USSensorExample",
+            "projectName": "template_project_gradle"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SetPoint<template_project_gradle>",
+            "request": "launch",
+            "mainClass": "example.screen.SetPoint",
+            "projectName": "template_project_gradle"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ShowFont<template_project_gradle>",
+            "request": "launch",
+            "mainClass": "example.screen.ShowFont",
+            "projectName": "template_project_gradle"
+        }
+    ]
+}
