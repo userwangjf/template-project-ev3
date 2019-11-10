@@ -8,7 +8,7 @@ brick.pref {
     mainClass = "example.screen.ShowFont"
 
     // Brick connection parameters //
-    sshHost = "10.42.0.3" //linux IP
+    sshHost = "10.42.0.3"
     //sshHost = "192.168.137.3"  //window IP
     sshUser = "robot"
     sshPassword = "maker"

@@ -1,5 +1,7 @@
 # Template project with Gradle
 
+## for VSCODE
+
 ## Why
 
 Test a new technology is always a bit tedious and it requires an amount of time.

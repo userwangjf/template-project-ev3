@@ -1,0 +1,1 @@
+Hello Jar's resources/txt/hw.txt

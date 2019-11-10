@@ -8,8 +8,8 @@ import lejos.hardware.lcd.GraphicsLCD;
 import lejos.hardware.lcd.TextLCD;
 import lejos.utility.Delay;
 
-
 import java.awt.*;
+import java.io.InputStream;
 
 //打印hello word到brick的屏幕
 public class ShowFont {
@@ -27,6 +27,17 @@ public class ShowFont {
         }
 
         //listFont();
+
+        //测试能否得到资源
+        try (InputStream input = getClass().getResourceAsStream("/txt/hw.txt")) {
+            if (input != null) {
+                System.out.println("Find /txt/hw.txt");
+            } else {
+                System.out.println("no Find /txt/hw.txt");
+            }
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
 
 
         //lcd.setColor(Color.BLACK);
